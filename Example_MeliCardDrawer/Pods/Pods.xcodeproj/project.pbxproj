@@ -1,0 +1,1034 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		095E4C585325491A1D08A0EE0541C58F /* CardHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6F63369B5A3BCC5196BBDDC19D3624 /* CardHeaderController.swift */; };
+		098FFC62B1F18D693E8783D0601D825D /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F8C70977DC9AC38384CEB8B8AB9B1 /* UIView+Nib.swift */; };
+		0DEA038D3A01F32F17B380266114C714 /* Pods-Example_MeliCardDrawer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C483AE55F436B8A45CB4F6900329B532 /* Pods-Example_MeliCardDrawer-dummy.m */; };
+		105197ED7EF77530C48BA686700F6D05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		13939C5754D44420AC605A9FC348F0BE /* UIImage+Gray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D500581FB363C0A58CD3DE67EEC527 /* UIImage+Gray.swift */; };
+		1B9E4BFC92F1DD5A4F1777EF374E82E9 /* CardAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C0ECFC95AC1DC2F05AFD98374E485 /* CardAssets.xcassets */; };
+		223676F6A23907F00F878388358259C9 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E5FA0FDD5E30789C49C1EA7FE9ABE8 /* CircleView.swift */; };
+		24802AFBC555886E2C2E1A5C24E3D5AD /* MLCardDrawer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8FA8A80F97BBD3550AD00BBD58032 /* MLCardDrawer-dummy.m */; };
+		33CE7FD36D0ABAB494289470F5456439 /* BackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436508EE6A201CD7410965DDD9C275BF /* BackView.swift */; };
+		379C02BD05C84E4DA374DAAF8DF86A9E /* FontFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B600C73DC600579D64E216016012A23 /* FontFactory.swift */; };
+		3AB8507884A749E24EC16B0416ABDB7B /* LargeFrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A5176AC5CE52F6A5D7C7BD5CEAF9E9 /* LargeFrontView.swift */; };
+		3CA143CBA1B273E0960624131A88D9D8 /* LargeFrontView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66C02095446C172F6EF89926B5422618 /* LargeFrontView.xib */; };
+		44D90391A6BE1FA8D70C4972E9E42976 /* CardLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D079157448BADE3D314CE09B7837FC6 /* CardLabel.swift */; };
+		4C01994BF5EF43FF27DCAAC78B67899E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4D0E1C457329FEBEC0020F30A2194FFD /* Fonts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDD19D65465898F497816A93C3812642 /* Fonts.bundle */; };
+		67BA3DFC04FEA303A07F0F58F415259F /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16676233877BFF07857670F1C41CA77 /* CardData.swift */; };
+		68E6568E8C22759D1EFBB40ED7D5BC41 /* Pods-Example_MeliCardDrawerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A2F09D3F9D6CF6411B62A47FB19F34C /* Pods-Example_MeliCardDrawerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E80672D80CE3F9E2AD39D874EC264C3 /* BackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05A5D4485685BD79A17C4A2565E15E46 /* BackView.xib */; };
+		7331978AEF3DB24BC3433E82AD6E3716 /* UIFont+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840BB6AD2CA7ABA3003E5C4302DDE450 /* UIFont+Utils.swift */; };
+		8845AC2EBED1731FDE7B6E4B055CB553 /* Pods-Example_MeliCardDrawer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F42F8A8305B50531500B06BCF8662581 /* Pods-Example_MeliCardDrawer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		898EDD7EE19687376046238B6EF14016 /* MLCardDrawer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 179AA66A45754A298F5C1B3B71359B1F /* MLCardDrawer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C3F7C1CF7EE1F6499F88005A12D67B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		913C7374A3F3E7440CBFA4D2A6295132 /* MaskFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB7D7184EAA516F706D2829F5856BE5 /* MaskFormatter.swift */; };
+		A552E48479B2764D523F7377396540D8 /* CardUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9818205606015CCF1DFAB4EC4871836 /* CardUI.swift */; };
+		BA490CD5D08BF63BF72FDA251840E8A0 /* ShineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C89FADC381F9CC1D032230D931AD8F /* ShineView.swift */; };
+		C6D67B3686BCDAC54210D69558D8DAEC /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFDBAE680CD70CCEFBABAD24428B835 /* Animator.swift */; };
+		D0A39C6722CFCA7200D7DED8 /* MediumFrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A39C6622CFCA7200D7DED8 /* MediumFrontView.swift */; };
+		D0A39C6922CFD55400D7DED8 /* MediumFrontView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0A39C6822CFD55400D7DED8 /* MediumFrontView.xib */; };
+		D0A39C6B22CFD92D00D7DED8 /* SmallFrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A39C6A22CFD92D00D7DED8 /* SmallFrontView.swift */; };
+		D0A39C6D22CFD95400D7DED8 /* SmallFrontView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0A39C6C22CFD95400D7DED8 /* SmallFrontView.xib */; };
+		D5663BF9382584249711522D457674AE /* Pods-Example_MeliCardDrawerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE96C8C0012794797E65F0A471D2B6C /* Pods-Example_MeliCardDrawerTests-dummy.m */; };
+		D91C2398203EACAB8380EB20EFBB3D28 /* UIColor+DarkLighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E2E801A42FA81BCBEC3A6A0B7BE8A /* UIColor+DarkLighter.swift */; };
+		DB53B220157860527399431A38B94991 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9791330EE307F956B3713102577E7E /* Gradient.swift */; };
+		EFC8E1AAC3591E0EC03527A12B7EF7A6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FC680A63846BDCB20CCB833177C6C0 /* CardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4164B545963FF68C879EAAC82F96A105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6691C63B41E052597396F2D81EE5100B;
+			remoteInfo = "Pods-Example_MeliCardDrawer";
+		};
+		5A47FFB71EFD4D98D601EB8D18020110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66758A1A4BBC6DE07EEAC037AD4759DF;
+			remoteInfo = MLCardDrawer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05A5D4485685BD79A17C4A2565E15E46 /* BackView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = BackView.xib; sourceTree = "<group>"; };
+		0B600C73DC600579D64E216016012A23 /* FontFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FontFactory.swift; sourceTree = "<group>"; };
+		0D079157448BADE3D314CE09B7837FC6 /* CardLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardLabel.swift; sourceTree = "<group>"; };
+		0DE96C8C0012794797E65F0A471D2B6C /* Pods-Example_MeliCardDrawerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example_MeliCardDrawerTests-dummy.m"; sourceTree = "<group>"; };
+		11C89FADC381F9CC1D032230D931AD8F /* ShineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShineView.swift; sourceTree = "<group>"; };
+		179AA66A45754A298F5C1B3B71359B1F /* MLCardDrawer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLCardDrawer-umbrella.h"; sourceTree = "<group>"; };
+		1CC3783ABD921CCF32BE2DE50392E614 /* Pods-Example_MeliCardDrawer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example_MeliCardDrawer-acknowledgements.plist"; sourceTree = "<group>"; };
+		227C37DCF2A17A0F9AD348B0F986AFEF /* Pods-Example_MeliCardDrawerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example_MeliCardDrawerTests-resources.sh"; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		253308E48D2A010226863F27910DE0B6 /* MLCardDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MLCardDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		253AF7914CA5A8A6727F25FBB1672406 /* Pods-Example_MeliCardDrawer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example_MeliCardDrawer.debug.xcconfig"; sourceTree = "<group>"; };
+		26C8FA8A80F97BBD3550AD00BBD58032 /* MLCardDrawer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MLCardDrawer-dummy.m"; sourceTree = "<group>"; };
+		2A2F09D3F9D6CF6411B62A47FB19F34C /* Pods-Example_MeliCardDrawerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example_MeliCardDrawerTests-umbrella.h"; sourceTree = "<group>"; };
+		2B1229331088CA93AE97DF7C9A4DCE35 /* MLCardDrawer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MLCardDrawer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2F9C0ECFC95AC1DC2F05AFD98374E485 /* CardAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = CardAssets.xcassets; sourceTree = "<group>"; };
+		30F081BB0652F8603D442AACA61C14BF /* Pods-Example_MeliCardDrawer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example_MeliCardDrawer-resources.sh"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		42C9E0E92DE8EF1D2C209D69964C3D52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436508EE6A201CD7410965DDD9C275BF /* BackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BackView.swift; sourceTree = "<group>"; };
+		46BAD3B5823BC7552FA19F46573684FF /* MLCardDrawer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLCardDrawer.xcconfig; sourceTree = "<group>"; };
+		51E5FA0FDD5E30789C49C1EA7FE9ABE8 /* CircleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		55A8ACF62ED0D9C5101B2A50845806A5 /* Pods-Example_MeliCardDrawerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example_MeliCardDrawerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		583CC1FC139F757F81F90370C7199D05 /* Pods-Example_MeliCardDrawerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example_MeliCardDrawerTests.release.xcconfig"; sourceTree = "<group>"; };
+		5BB7D7184EAA516F706D2829F5856BE5 /* MaskFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MaskFormatter.swift; sourceTree = "<group>"; };
+		66C02095446C172F6EF89926B5422618 /* LargeFrontView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LargeFrontView.xib; sourceTree = "<group>"; };
+		7464E78270D0F444292A31B4EDCA443A /* MLCardDrawer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MLCardDrawer.modulemap; sourceTree = "<group>"; };
+		7950F4BA7244FAF3082FB3739BB5EB09 /* Pods-Example_MeliCardDrawerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example_MeliCardDrawerTests-frameworks.sh"; sourceTree = "<group>"; };
+		7DFDBAE680CD70CCEFBABAD24428B835 /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		82EB11E962DE02BF1CE67DB0DF0A0B19 /* Pods-Example_MeliCardDrawerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example_MeliCardDrawerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		840BB6AD2CA7ABA3003E5C4302DDE450 /* UIFont+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+Utils.swift"; sourceTree = "<group>"; };
+		8B53B311DA96429AB6AA3724467E468F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5F8C70977DC9AC38384CEB8B8AB9B1 /* UIView+Nib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		93E85584F0CC5D652211C89993B87580 /* MLCardDrawer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLCardDrawer-prefix.pch"; sourceTree = "<group>"; };
+		94A3E8AF852DB262BCE254213AD4A8B8 /* Pods_Example_MeliCardDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example_MeliCardDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		973E2E801A42FA81BCBEC3A6A0B7BE8A /* UIColor+DarkLighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+DarkLighter.swift"; sourceTree = "<group>"; };
+		A1D6D84E273DDDCF3A76D85EDBE83737 /* Pods_Example_MeliCardDrawerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example_MeliCardDrawerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA85C786362697D7995142A22698BDE0 /* Pods-Example_MeliCardDrawerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example_MeliCardDrawerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD26072476DE6FC3403811BAC5CB1678 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B0ABCCEAC4ECF0838D369DF8265E56CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A5176AC5CE52F6A5D7C7BD5CEAF9E9 /* LargeFrontView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LargeFrontView.swift; sourceTree = "<group>"; };
+		B5B64F1F896619A25650C5BDC1505CDA /* Pods-Example_MeliCardDrawer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example_MeliCardDrawer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B66CBD23DF239FD5DE52640808CB5EF5 /* Pods-Example_MeliCardDrawer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example_MeliCardDrawer-frameworks.sh"; sourceTree = "<group>"; };
+		B66DC2D62AE112F4DF560CC4FF03A79B /* Pods-Example_MeliCardDrawer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example_MeliCardDrawer.modulemap"; sourceTree = "<group>"; };
+		C483AE55F436B8A45CB4F6900329B532 /* Pods-Example_MeliCardDrawer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example_MeliCardDrawer-dummy.m"; sourceTree = "<group>"; };
+		C86290D7BA38BE2C0A8EC7864F89F9C5 /* Pods-Example_MeliCardDrawer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example_MeliCardDrawer.release.xcconfig"; sourceTree = "<group>"; };
+		C935220DE34EB1D6E1E9908B5CB01BA5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CDD19D65465898F497816A93C3812642 /* Fonts.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Fonts.bundle; sourceTree = "<group>"; };
+		D0A39C6622CFCA7200D7DED8 /* MediumFrontView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumFrontView.swift; sourceTree = "<group>"; };
+		D0A39C6822CFD55400D7DED8 /* MediumFrontView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediumFrontView.xib; sourceTree = "<group>"; };
+		D0A39C6A22CFD92D00D7DED8 /* SmallFrontView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallFrontView.swift; sourceTree = "<group>"; };
+		D0A39C6C22CFD95400D7DED8 /* SmallFrontView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmallFrontView.xib; sourceTree = "<group>"; };
+		E16676233877BFF07857670F1C41CA77 /* CardData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		E1FC680A63846BDCB20CCB833177C6C0 /* CardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EB6F63369B5A3BCC5196BBDDC19D3624 /* CardHeaderController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardHeaderController.swift; sourceTree = "<group>"; };
+		F366B189C6EFCFC9DFA7C598A7C8352C /* Pods-Example_MeliCardDrawerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example_MeliCardDrawerTests.modulemap"; sourceTree = "<group>"; };
+		F3D500581FB363C0A58CD3DE67EEC527 /* UIImage+Gray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Gray.swift"; sourceTree = "<group>"; };
+		F42F8A8305B50531500B06BCF8662581 /* Pods-Example_MeliCardDrawer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example_MeliCardDrawer-umbrella.h"; sourceTree = "<group>"; };
+		F9818205606015CCF1DFAB4EC4871836 /* CardUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardUI.swift; sourceTree = "<group>"; };
+		FC9791330EE307F956B3713102577E7E /* Gradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DFADBD33C2534DC92A4C49040F72130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105197ED7EF77530C48BA686700F6D05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBE07CE35256E77735063C7ACE3A9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C01994BF5EF43FF27DCAAC78B67899E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7EEDFDE12AA2E3ECE302ED2C12F75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3F7C1CF7EE1F6499F88005A12D67B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063DA5AFA5EC6252371C676E223EAC72 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				E1FC680A63846BDCB20CCB833177C6C0 /* CardView.swift */,
+				9897094F7C8AEF7F48635889C2332315 /* Back */,
+				774DC30FD26FF30B94ACDAE3453566EC /* CardLabel */,
+				8483B18F63B72FFB3E547958445DDDB6 /* Front */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		120ED0E47D40881D6DDEFD00C4622E1B /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				05A5D4485685BD79A17C4A2565E15E46 /* BackView.xib */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		174AD16D376E53185E358A4D82F73183 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C935220DE34EB1D6E1E9908B5CB01BA5 /* LICENSE */,
+				2B1229331088CA93AE97DF7C9A4DCE35 /* MLCardDrawer.podspec */,
+				AD26072476DE6FC3403811BAC5CB1678 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2263BDC994ED5A173EF168A175BF0E3E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E16676233877BFF07857670F1C41CA77 /* CardData.swift */,
+				F9818205606015CCF1DFAB4EC4871836 /* CardUI.swift */,
+			);
+			name = Protocols;
+			path = Source/Classes/Protocols;
+			sourceTree = "<group>";
+		};
+		43A5A8BD6B626DA790E797B459053358 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5833BB8831B1D7D21006D5544493B3C9 /* Pods-Example_MeliCardDrawer */,
+				9A3AFB146DC36851E0FC54E18BB73433 /* Pods-Example_MeliCardDrawerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5833BB8831B1D7D21006D5544493B3C9 /* Pods-Example_MeliCardDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				42C9E0E92DE8EF1D2C209D69964C3D52 /* Info.plist */,
+				B66DC2D62AE112F4DF560CC4FF03A79B /* Pods-Example_MeliCardDrawer.modulemap */,
+				B5B64F1F896619A25650C5BDC1505CDA /* Pods-Example_MeliCardDrawer-acknowledgements.markdown */,
+				1CC3783ABD921CCF32BE2DE50392E614 /* Pods-Example_MeliCardDrawer-acknowledgements.plist */,
+				C483AE55F436B8A45CB4F6900329B532 /* Pods-Example_MeliCardDrawer-dummy.m */,
+				B66CBD23DF239FD5DE52640808CB5EF5 /* Pods-Example_MeliCardDrawer-frameworks.sh */,
+				30F081BB0652F8603D442AACA61C14BF /* Pods-Example_MeliCardDrawer-resources.sh */,
+				F42F8A8305B50531500B06BCF8662581 /* Pods-Example_MeliCardDrawer-umbrella.h */,
+				253AF7914CA5A8A6727F25FBB1672406 /* Pods-Example_MeliCardDrawer.debug.xcconfig */,
+				C86290D7BA38BE2C0A8EC7864F89F9C5 /* Pods-Example_MeliCardDrawer.release.xcconfig */,
+			);
+			name = "Pods-Example_MeliCardDrawer";
+			path = "Target Support Files/Pods-Example_MeliCardDrawer";
+			sourceTree = "<group>";
+		};
+		6D08F38478A86C824F6A3A4ED305F9CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B53B311DA96429AB6AA3724467E468F /* Info.plist */,
+				7464E78270D0F444292A31B4EDCA443A /* MLCardDrawer.modulemap */,
+				46BAD3B5823BC7552FA19F46573684FF /* MLCardDrawer.xcconfig */,
+				26C8FA8A80F97BBD3550AD00BBD58032 /* MLCardDrawer-dummy.m */,
+				93E85584F0CC5D652211C89993B87580 /* MLCardDrawer-prefix.pch */,
+				179AA66A45754A298F5C1B3B71359B1F /* MLCardDrawer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example_MeliCardDrawer/Pods/Target Support Files/MLCardDrawer";
+			sourceTree = "<group>";
+		};
+		774DC30FD26FF30B94ACDAE3453566EC /* CardLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0D079157448BADE3D314CE09B7837FC6 /* CardLabel.swift */,
+				0B600C73DC600579D64E216016012A23 /* FontFactory.swift */,
+			);
+			path = CardLabel;
+			sourceTree = "<group>";
+		};
+		77622AE3A99ECE530450EE3FF7937920 /* MLCardDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				B70592FB8923B4438D94D5B9830EB2FD /* Controller */,
+				BD4692B0673240E97F3A99C8134469B6 /* Formatter */,
+				174AD16D376E53185E358A4D82F73183 /* Pod */,
+				2263BDC994ED5A173EF168A175BF0E3E /* Protocols */,
+				C6E72C250EE4AE1FE5A6975CEEA2BD83 /* Resources */,
+				6D08F38478A86C824F6A3A4ED305F9CE /* Support Files */,
+				D84F84C10D45B3FC560EAD37D5BAEAD9 /* Utils */,
+				A189B4CD72792DCFCC9949C3083DD814 /* View */,
+			);
+			name = MLCardDrawer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7A2D74765BC95F6D2A770F71C8DC36C0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F642E467DD8347681D04973090A6EF9B /* View */,
+			);
+			name = Classes;
+			path = Source/Classes;
+			sourceTree = "<group>";
+		};
+		8483B18F63B72FFB3E547958445DDDB6 /* Front */ = {
+			isa = PBXGroup;
+			children = (
+				B2A5176AC5CE52F6A5D7C7BD5CEAF9E9 /* LargeFrontView.swift */,
+				D0A39C6622CFCA7200D7DED8 /* MediumFrontView.swift */,
+				D0A39C6A22CFD92D00D7DED8 /* SmallFrontView.swift */,
+			);
+			path = Front;
+			sourceTree = "<group>";
+		};
+		9897094F7C8AEF7F48635889C2332315 /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				436508EE6A201CD7410965DDD9C275BF /* BackView.swift */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		9A3AFB146DC36851E0FC54E18BB73433 /* Pods-Example_MeliCardDrawerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0ABCCEAC4ECF0838D369DF8265E56CB /* Info.plist */,
+				F366B189C6EFCFC9DFA7C598A7C8352C /* Pods-Example_MeliCardDrawerTests.modulemap */,
+				AA85C786362697D7995142A22698BDE0 /* Pods-Example_MeliCardDrawerTests-acknowledgements.markdown */,
+				55A8ACF62ED0D9C5101B2A50845806A5 /* Pods-Example_MeliCardDrawerTests-acknowledgements.plist */,
+				0DE96C8C0012794797E65F0A471D2B6C /* Pods-Example_MeliCardDrawerTests-dummy.m */,
+				7950F4BA7244FAF3082FB3739BB5EB09 /* Pods-Example_MeliCardDrawerTests-frameworks.sh */,
+				227C37DCF2A17A0F9AD348B0F986AFEF /* Pods-Example_MeliCardDrawerTests-resources.sh */,
+				2A2F09D3F9D6CF6411B62A47FB19F34C /* Pods-Example_MeliCardDrawerTests-umbrella.h */,
+				82EB11E962DE02BF1CE67DB0DF0A0B19 /* Pods-Example_MeliCardDrawerTests.debug.xcconfig */,
+				583CC1FC139F757F81F90370C7199D05 /* Pods-Example_MeliCardDrawerTests.release.xcconfig */,
+			);
+			name = "Pods-Example_MeliCardDrawerTests";
+			path = "Target Support Files/Pods-Example_MeliCardDrawerTests";
+			sourceTree = "<group>";
+		};
+		A189B4CD72792DCFCC9949C3083DD814 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DFDBAE680CD70CCEFBABAD24428B835 /* Animator.swift */,
+				51E5FA0FDD5E30789C49C1EA7FE9ABE8 /* CircleView.swift */,
+				11C89FADC381F9CC1D032230D931AD8F /* ShineView.swift */,
+				8E5F8C70977DC9AC38384CEB8B8AB9B1 /* UIView+Nib.swift */,
+				063DA5AFA5EC6252371C676E223EAC72 /* CardView */,
+			);
+			name = View;
+			path = Source/Classes/View;
+			sourceTree = "<group>";
+		};
+		AF629C4016806AF7EE06B82BA21D06DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				253308E48D2A010226863F27910DE0B6 /* MLCardDrawer.framework */,
+				94A3E8AF852DB262BCE254213AD4A8B8 /* Pods_Example_MeliCardDrawer.framework */,
+				A1D6D84E273DDDCF3A76D85EDBE83737 /* Pods_Example_MeliCardDrawerTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B70592FB8923B4438D94D5B9830EB2FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB6F63369B5A3BCC5196BBDDC19D3624 /* CardHeaderController.swift */,
+			);
+			name = Controller;
+			path = Source/Classes/Controller;
+			sourceTree = "<group>";
+		};
+		BD4692B0673240E97F3A99C8134469B6 /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				5BB7D7184EAA516F706D2829F5856BE5 /* MaskFormatter.swift */,
+			);
+			name = Formatter;
+			path = Source/Classes/Formatter;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C2A3277E62E55113E39B461FCFB56CEF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C0ECFC95AC1DC2F05AFD98374E485 /* CardAssets.xcassets */,
+				CDD19D65465898F497816A93C3812642 /* Fonts.bundle */,
+			);
+			name = Assets;
+			path = Source/Assets;
+			sourceTree = "<group>";
+		};
+		C6E72C250EE4AE1FE5A6975CEEA2BD83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2A3277E62E55113E39B461FCFB56CEF /* Assets */,
+				7A2D74765BC95F6D2A770F71C8DC36C0 /* Classes */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CD5F2C045538E000C037D3D2DD75B9D2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77622AE3A99ECE530450EE3FF7937920 /* MLCardDrawer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				CD5F2C045538E000C037D3D2DD75B9D2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AF629C4016806AF7EE06B82BA21D06DC /* Products */,
+				43A5A8BD6B626DA790E797B459053358 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4628D2FC7068109BE2011769105FE25 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				120ED0E47D40881D6DDEFD00C4622E1B /* Back */,
+				FA3E33040B64C005505364207857EDA1 /* Front */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		D84F84C10D45B3FC560EAD37D5BAEAD9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FC9791330EE307F956B3713102577E7E /* Gradient.swift */,
+				973E2E801A42FA81BCBEC3A6A0B7BE8A /* UIColor+DarkLighter.swift */,
+				840BB6AD2CA7ABA3003E5C4302DDE450 /* UIFont+Utils.swift */,
+				F3D500581FB363C0A58CD3DE67EEC527 /* UIImage+Gray.swift */,
+			);
+			name = Utils;
+			path = Source/Classes/Utils;
+			sourceTree = "<group>";
+		};
+		F642E467DD8347681D04973090A6EF9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4628D2FC7068109BE2011769105FE25 /* CardView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA3E33040B64C005505364207857EDA1 /* Front */ = {
+			isa = PBXGroup;
+			children = (
+				66C02095446C172F6EF89926B5422618 /* LargeFrontView.xib */,
+				D0A39C6822CFD55400D7DED8 /* MediumFrontView.xib */,
+				D0A39C6C22CFD95400D7DED8 /* SmallFrontView.xib */,
+			);
+			path = Front;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3BEEBBD95643993DAF0DEA3B45E2E098 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898EDD7EE19687376046238B6EF14016 /* MLCardDrawer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F0C5CE0249D13ED562B61676BBBBD48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E6568E8C22759D1EFBB40ED7D5BC41 /* Pods-Example_MeliCardDrawerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55DD76715018E450FEF3F8ECD1E0D1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8845AC2EBED1731FDE7B6E4B055CB553 /* Pods-Example_MeliCardDrawer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A334EABA28D147D38CA00D1D607A756 /* Pods-Example_MeliCardDrawerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962B443946361F4BD2967E6332ED7099 /* Build configuration list for PBXNativeTarget "Pods-Example_MeliCardDrawerTests" */;
+			buildPhases = (
+				4F0C5CE0249D13ED562B61676BBBBD48 /* Headers */,
+				0616FBB5FB71FA58A396469C113FBD26 /* Sources */,
+				5DFADBD33C2534DC92A4C49040F72130 /* Frameworks */,
+				CEC0E32FACD88F217ACC1D6E8A0D0C91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FAF8F9755A1C9323769FDD92888539A /* PBXTargetDependency */,
+			);
+			name = "Pods-Example_MeliCardDrawerTests";
+			productName = "Pods-Example_MeliCardDrawerTests";
+			productReference = A1D6D84E273DDDCF3A76D85EDBE83737 /* Pods_Example_MeliCardDrawerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		66758A1A4BBC6DE07EEAC037AD4759DF /* MLCardDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489ACB0A0722E13EB958E780B6AE73C6 /* Build configuration list for PBXNativeTarget "MLCardDrawer" */;
+			buildPhases = (
+				3BEEBBD95643993DAF0DEA3B45E2E098 /* Headers */,
+				676BAAA34C94F6861FCC3A6C2690C355 /* Sources */,
+				CCBE07CE35256E77735063C7ACE3A9CA /* Frameworks */,
+				3FBE98AD875FB2E4BF945D39BFD36D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLCardDrawer;
+			productName = MLCardDrawer;
+			productReference = 253308E48D2A010226863F27910DE0B6 /* MLCardDrawer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6691C63B41E052597396F2D81EE5100B /* Pods-Example_MeliCardDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8994F0038E45AFF0D9B89478AACA16 /* Build configuration list for PBXNativeTarget "Pods-Example_MeliCardDrawer" */;
+			buildPhases = (
+				F55DD76715018E450FEF3F8ECD1E0D1E /* Headers */,
+				833C966329676D781E0A2AAB24B69DC3 /* Sources */,
+				DE7EEDFDE12AA2E3ECE302ED2C12F75A /* Frameworks */,
+				125CC20C2FA2B1EA4C32DC146EFEA353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D26BC65F3FC9C41202E536DBA6D0D2EE /* PBXTargetDependency */,
+			);
+			name = "Pods-Example_MeliCardDrawer";
+			productName = "Pods-Example_MeliCardDrawer";
+			productReference = 94A3E8AF852DB262BCE254213AD4A8B8 /* Pods_Example_MeliCardDrawer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AF629C4016806AF7EE06B82BA21D06DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66758A1A4BBC6DE07EEAC037AD4759DF /* MLCardDrawer */,
+				6691C63B41E052597396F2D81EE5100B /* Pods-Example_MeliCardDrawer */,
+				1A334EABA28D147D38CA00D1D607A756 /* Pods-Example_MeliCardDrawerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		125CC20C2FA2B1EA4C32DC146EFEA353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBE98AD875FB2E4BF945D39BFD36D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A39C6D22CFD95400D7DED8 /* SmallFrontView.xib in Resources */,
+				6E80672D80CE3F9E2AD39D874EC264C3 /* BackView.xib in Resources */,
+				1B9E4BFC92F1DD5A4F1777EF374E82E9 /* CardAssets.xcassets in Resources */,
+				D0A39C6922CFD55400D7DED8 /* MediumFrontView.xib in Resources */,
+				4D0E1C457329FEBEC0020F30A2194FFD /* Fonts.bundle in Resources */,
+				3CA143CBA1B273E0960624131A88D9D8 /* LargeFrontView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC0E32FACD88F217ACC1D6E8A0D0C91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0616FBB5FB71FA58A396469C113FBD26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5663BF9382584249711522D457674AE /* Pods-Example_MeliCardDrawerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676BAAA34C94F6861FCC3A6C2690C355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D67B3686BCDAC54210D69558D8DAEC /* Animator.swift in Sources */,
+				33CE7FD36D0ABAB494289470F5456439 /* BackView.swift in Sources */,
+				67BA3DFC04FEA303A07F0F58F415259F /* CardData.swift in Sources */,
+				095E4C585325491A1D08A0EE0541C58F /* CardHeaderController.swift in Sources */,
+				D0A39C6B22CFD92D00D7DED8 /* SmallFrontView.swift in Sources */,
+				44D90391A6BE1FA8D70C4972E9E42976 /* CardLabel.swift in Sources */,
+				A552E48479B2764D523F7377396540D8 /* CardUI.swift in Sources */,
+				EFC8E1AAC3591E0EC03527A12B7EF7A6 /* CardView.swift in Sources */,
+				223676F6A23907F00F878388358259C9 /* CircleView.swift in Sources */,
+				D0A39C6722CFCA7200D7DED8 /* MediumFrontView.swift in Sources */,
+				379C02BD05C84E4DA374DAAF8DF86A9E /* FontFactory.swift in Sources */,
+				3AB8507884A749E24EC16B0416ABDB7B /* LargeFrontView.swift in Sources */,
+				DB53B220157860527399431A38B94991 /* Gradient.swift in Sources */,
+				913C7374A3F3E7440CBFA4D2A6295132 /* MaskFormatter.swift in Sources */,
+				24802AFBC555886E2C2E1A5C24E3D5AD /* MLCardDrawer-dummy.m in Sources */,
+				BA490CD5D08BF63BF72FDA251840E8A0 /* ShineView.swift in Sources */,
+				D91C2398203EACAB8380EB20EFBB3D28 /* UIColor+DarkLighter.swift in Sources */,
+				7331978AEF3DB24BC3433E82AD6E3716 /* UIFont+Utils.swift in Sources */,
+				13939C5754D44420AC605A9FC348F0BE /* UIImage+Gray.swift in Sources */,
+				098FFC62B1F18D693E8783D0601D825D /* UIView+Nib.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833C966329676D781E0A2AAB24B69DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DEA038D3A01F32F17B380266114C714 /* Pods-Example_MeliCardDrawer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FAF8F9755A1C9323769FDD92888539A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Example_MeliCardDrawer";
+			target = 6691C63B41E052597396F2D81EE5100B /* Pods-Example_MeliCardDrawer */;
+			targetProxy = 4164B545963FF68C879EAAC82F96A105 /* PBXContainerItemProxy */;
+		};
+		D26BC65F3FC9C41202E536DBA6D0D2EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MLCardDrawer;
+			target = 66758A1A4BBC6DE07EEAC037AD4759DF /* MLCardDrawer */;
+			targetProxy = 5A47FFB71EFD4D98D601EB8D18020110 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E9D521CA71E5902211A80FC420E768E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583CC1FC139F757F81F90370C7199D05 /* Pods-Example_MeliCardDrawerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example_MeliCardDrawerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example_MeliCardDrawerTests/Pods-Example_MeliCardDrawerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74008A4F53AD38772C49CF08B5A417B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46BAD3B5823BC7552FA19F46573684FF /* MLCardDrawer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLCardDrawer/MLCardDrawer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLCardDrawer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MLCardDrawer/MLCardDrawer.modulemap";
+				PRODUCT_MODULE_NAME = MLCardDrawer;
+				PRODUCT_NAME = MLCardDrawer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC43BFE2C046BA052669EFD4B3BC0820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C21813649BD626E3EB5533772EC5C07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D1C8DB0B04672EF819BEF3AE95D608C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253AF7914CA5A8A6727F25FBB1672406 /* Pods-Example_MeliCardDrawer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example_MeliCardDrawer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example_MeliCardDrawer/Pods-Example_MeliCardDrawer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA6FA1F145CC14E0AED177932A27041E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82EB11E962DE02BF1CE67DB0DF0A0B19 /* Pods-Example_MeliCardDrawerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example_MeliCardDrawerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example_MeliCardDrawerTests/Pods-Example_MeliCardDrawerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8CB34CAA6942E50DDC875365B587966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46BAD3B5823BC7552FA19F46573684FF /* MLCardDrawer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLCardDrawer/MLCardDrawer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLCardDrawer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MLCardDrawer/MLCardDrawer.modulemap";
+				PRODUCT_MODULE_NAME = MLCardDrawer;
+				PRODUCT_NAME = MLCardDrawer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC357F58D5A0CDE9E27B3749C693D3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C86290D7BA38BE2C0A8EC7864F89F9C5 /* Pods-Example_MeliCardDrawer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example_MeliCardDrawer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example_MeliCardDrawer/Pods-Example_MeliCardDrawer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC43BFE2C046BA052669EFD4B3BC0820 /* Debug */,
+				C21813649BD626E3EB5533772EC5C07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489ACB0A0722E13EB958E780B6AE73C6 /* Build configuration list for PBXNativeTarget "MLCardDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CB34CAA6942E50DDC875365B587966 /* Debug */,
+				74008A4F53AD38772C49CF08B5A417B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8994F0038E45AFF0D9B89478AACA16 /* Build configuration list for PBXNativeTarget "Pods-Example_MeliCardDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C8DB0B04672EF819BEF3AE95D608C5 /* Debug */,
+				FC357F58D5A0CDE9E27B3749C693D3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962B443946361F4BD2967E6332ED7099 /* Build configuration list for PBXNativeTarget "Pods-Example_MeliCardDrawerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6FA1F145CC14E0AED177932A27041E /* Debug */,
+				2E9D521CA71E5902211A80FC420E768E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

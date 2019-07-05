@@ -6,8 +6,16 @@ class BackView: CardView {
         super.setupUI(cardUI)
         securityCode.setup(model?.securityCode, Default(UIColor.gray))     
     }
-
+    
+    override func addObservers() {
+        if let securityCode = securityCode {
+            addObserver(securityCode, forKeyPath: #keyPath(model.securityCode), options: .new, context: nil)
+        }
+    }
+    
     deinit {
-        removeObserver(securityCode, forKeyPath: #keyPath(model.securityCode))
+        if let securityCode = securityCode {
+            removeObserver(securityCode, forKeyPath: #keyPath(model.securityCode))
+        }
     }
 }

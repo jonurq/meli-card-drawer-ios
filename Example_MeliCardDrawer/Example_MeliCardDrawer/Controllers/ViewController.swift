@@ -15,7 +15,10 @@ final class ViewController: UIViewController {
     // MARK: Outlets.
     @IBOutlet weak var cardTypesCollectionView: UICollectionView!
     @IBOutlet weak var containerView: UIView!
-
+    @IBOutlet weak var segmentControl: UISegmentedControl!
+    
+    @IBOutlet weak var aspectLayoutConstraint: NSLayoutConstraint!
+    
     // MARK: Private Vars
     // Example implementation CardHeaderController - MeliCardDrawer.
     private var cardDrawer: MLCardDrawerController?
@@ -115,6 +118,31 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
 extension ViewController {
     @objc func dismissKeyboard() {
         view.endEditing(true)
+    }
+}
+
+// MARK: Segment Control for Size
+extension ViewController {
+    @IBAction func indexChanged(_ sender: Any) {
+        aspectLayoutConstraint.isActive = false
+        switch segmentControl.selectedSegmentIndex
+        {
+        case 0:
+            
+            aspectLayoutConstraint = containerView.heightAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.5)
+            cardDrawer?.setupViews(.large)
+        case 1:
+            aspectLayoutConstraint = containerView.heightAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.35)
+            cardDrawer?.setupViews(.medium)
+        case 2:
+            aspectLayoutConstraint = containerView.heightAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.25)
+            cardDrawer?.setupViews(.small)
+        default:
+            break
+        }
+        aspectLayoutConstraint.isActive = true
+        view.layoutIfNeeded()
+        cardDrawer?.setUp(inView: containerView).show()
     }
 }
 

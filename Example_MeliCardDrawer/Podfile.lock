@@ -1,0 +1,16 @@
+PODS:
+  - MLCardDrawer (1.0.2)
+
+DEPENDENCIES:
+  - MLCardDrawer (from `../`)
+
+EXTERNAL SOURCES:
+  MLCardDrawer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MLCardDrawer: 16df754efae4ea6b996c3fe615648bf32513d2b1
+
+PODFILE CHECKSUM: 2b17739265d106fbc1d23fd21913c0fdf9808c76
+
+COCOAPODS: 1.5.3

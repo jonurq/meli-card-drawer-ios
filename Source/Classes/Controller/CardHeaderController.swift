@@ -1,10 +1,15 @@
 import UIKit
 
+@objc public enum MLDCardDrawerType: Int {
+    case small, medium, large
+}
+
 @objcMembers public class MLCardDrawerController: UIViewController {
     private var shouldAnimate: Bool = true
     let cardFont = "RobotoMono-Regular"
-    var frontView = FrontView()
-    var backView = BackView()
+    var frontView: CardView!
+    var backView: CardView?
+    var model: CardData
 
     required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -20,19 +25,52 @@ import UIKit
             if isShineCardEnabled() {
                 addShine()
             }
-            backView.setupUI(value)
+            backView?.setupUI(value)
         }
     }
 
-    public init(_ cardUI: CardUI, _ model: CardData, _ disabledMode: Bool = false) {
+    public init(_ cardUI: CardUI, _ model: CardData, _ disabledMode: Bool = false, _ type: MLDCardDrawerType = .large) {
         self.cardUI = cardUI
+        self.model = model
         UIFont.registerFont(fontName: cardFont, fontExtension: "ttf")
         super.init(nibName: nil, bundle: nil)
-        backView.setup(cardUI, model, view.frame, disabledMode)
+        setupViews(type, disabledMode)
+        
+    }
+    public func setupViews(_ type: MLDCardDrawerType, _ disabledMode: Bool = false) {
+        
+        if let frontView = frontView, frontView.isDescendant(of: view) {
+            frontView.removeFromSuperview()
+        }
+        
+        if let backView = backView, backView.isDescendant(of: view) {
+            backView.removeFromSuperview()
+        }
+        
+        switch type {
+        case .large:
+            backView = BackView()
+            frontView = LargeFrontView()
+        case .medium:
+            frontView = MediumFrontView()
+            backView = nil
+        case .small:
+            frontView = SmallFrontView()
+            backView = nil
+        }
+        
+        backView?.setup(cardUI, model, view.frame, disabledMode)
         frontView.setup(cardUI, model, view.frame, disabledMode)
+        
+        setShineCard(enabled: isShineCardEnabled())
     }
 
     public func show() {
+        guard let backView = backView else {
+            addSubview(frontView)
+            return
+        }
+        
         transition(from: backView, to: frontView, .transitionFlipFromRight)
     }
 
@@ -41,7 +79,7 @@ import UIKit
     }
 
     public func showSecurityCode() {
-        guard cardUI.securityCodeLocation == .back else {
+        guard cardUI.securityCodeLocation == .back, let backView = backView else {
             addSubview(frontView)
             frontView.showSecurityCode()
             return

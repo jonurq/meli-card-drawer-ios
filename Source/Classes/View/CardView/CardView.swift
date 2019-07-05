@@ -1,5 +1,13 @@
 import UIKit
 
+@objc protocol CardViewInteractProtocol {
+    @objc optional func showSecurityCode()
+    
+    @objc optional func isShineEnabled() -> Bool
+    @objc optional func addShineView()
+    @objc optional func removeShineView()
+}
+
 class CardView: UIView {
 
     @IBOutlet weak var animation: UIView!
@@ -34,7 +42,10 @@ class CardView: UIView {
 
     func setupUI(_ cardUI: CardUI) {
         self.cardUI = cardUI
-        securityCode.formatter = Mask(pattern: [cardUI.securityCodePattern])
+        if let securityCode = securityCode {
+            securityCode.formatter = Mask(pattern: [cardUI.securityCodePattern])
+        }
+        
         if !(cardUI is CustomCardDrawerUI) {
             let mainColor = disabledMode ? disabledGray : cardUI.cardBackgroundColor
             animation.backgroundColor = mainColor
@@ -47,7 +58,11 @@ class CardView: UIView {
     }
 
     func addObservers() {
-        addObserver(securityCode, forKeyPath: #keyPath(model.securityCode), options: .new, context: nil)
+        // Override to add Observers
+    }
+    
+    func setupAnimated(_ cardUI: CardUI) {
+        fatalError("setupAnimated(cardUI:) has not been implemented")
     }
 
     func removeGradient() {
@@ -84,4 +99,11 @@ class CardView: UIView {
             self.gradient.layer.compositingFilter = "overlayBlendMode"
         }
     }
+}
+
+extension CardView: CardViewInteractProtocol {
+    public func showSecurityCode() {}
+    public func isShineEnabled() -> Bool { return false }
+    public func addShineView() {}
+    public func removeShineView() {}
 }

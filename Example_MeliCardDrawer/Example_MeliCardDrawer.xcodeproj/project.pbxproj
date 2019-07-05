@@ -297,7 +297,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Example_MeliCardDrawer/Pods-Example_MeliCardDrawer-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Example_MeliCardDrawer/Pods-Example_MeliCardDrawer-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MLCardDrawer/MLCardDrawer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -308,7 +308,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example_MeliCardDrawer/Pods-Example_MeliCardDrawer-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example_MeliCardDrawer/Pods-Example_MeliCardDrawer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		96006D57A25F89F9F1387C43 /* [CP] Check Pods Manifest.lock */ = {
