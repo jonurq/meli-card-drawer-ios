@@ -124,24 +124,25 @@ extension ViewController {
 // MARK: Segment Control for Size
 extension ViewController {
     @IBAction func indexChanged(_ sender: Any) {
-        aspectLayoutConstraint.isActive = false
-        switch segmentControl.selectedSegmentIndex
-        {
+        
+        switch segmentControl.selectedSegmentIndex {
         case 0:
-            
-            aspectLayoutConstraint = containerView.heightAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.5)
-            cardDrawer?.setupViews(.large)
+            setupCardView(type: .large, relation: 1.608)
         case 1:
-            aspectLayoutConstraint = containerView.heightAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.35)
-            cardDrawer?.setupViews(.medium)
+            setupCardView(type: .medium, relation: 3)
         case 2:
-            aspectLayoutConstraint = containerView.heightAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.25)
-            cardDrawer?.setupViews(.small)
+            setupCardView(type: .small, relation: 4)
         default:
             break
         }
+    }
+    
+    private func setupCardView(type: MLDCardDrawerType, relation: CGFloat) {
+        aspectLayoutConstraint.isActive = false
+        aspectLayoutConstraint = containerView.heightAnchor.constraint(equalTo: containerView.widthAnchor, multiplier: 1/relation)
         aspectLayoutConstraint.isActive = true
         view.layoutIfNeeded()
+        cardDrawer?.setupViews(type)
         cardDrawer?.setUp(inView: containerView).show()
     }
 }
